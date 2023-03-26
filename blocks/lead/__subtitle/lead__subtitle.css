@@ -2,6 +2,13 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  margin: 32px 172px 64px;
+  margin: 32px auto 64px;
   text-align: center;
+  width: 640px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 32px auto 56px;
+  }
 }

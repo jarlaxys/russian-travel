@@ -1,9 +1,0 @@
-.cover__box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 245px 312px;
-  margin: 0;
-  text-align: center;
-  gap: 32px;
-}
