@@ -1,0 +1,8 @@
+.cover {
+  position: relative;
+
+}
+
+.cover:hover .cover__img {
+  opacity: 0.3;
+}

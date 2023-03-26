@@ -1,0 +1,11 @@
+.link {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  transform: all .2s ease;
+}
+
+.link:hover {
+  opacity: .8;
+}
