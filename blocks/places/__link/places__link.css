@@ -4,3 +4,9 @@
   gap: 12px;
   justify-content: flex-end;
 }
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .places__link {
+    padding: 0 16px;
+  }
+}
