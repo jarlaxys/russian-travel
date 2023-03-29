@@ -9,6 +9,8 @@
   padding-top: 62.5%;
   background-repeat: no-repeat;
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
 .cover__link::before {
