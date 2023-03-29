@@ -4,13 +4,16 @@
   font-size: 24px;
   line-height: 28px;
   cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background-color: #2A2C2F;
 }
 
 .header__lang-link:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 320px) and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
