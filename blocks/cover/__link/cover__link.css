@@ -1,16 +1,18 @@
 .cover__link {
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none;
-  display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url('../../../images/cover.png');
   width: 100%;
-  padding-top: 62.5%;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
+  display: grid;
+  gap: 32px;
+  height: 62.5vw;
+  max-height: 740px;
 }
 
 .cover__link::before {
@@ -24,6 +26,7 @@
   background-color: #2A2C2F;
   opacity: .3;
   transition: .3s ease;
+
 }
 
 .cover__link:hover::before {

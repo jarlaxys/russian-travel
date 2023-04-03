@@ -1,4 +1,4 @@
-.places__link {
+.place__link {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .places__link {
+  .place__link {
     padding: 0 16px;
   }
 }

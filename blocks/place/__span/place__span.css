@@ -1,6 +1,7 @@
-.places__span {
+.place__span {
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  color: #AAAAAA;
+  color: #AAA;
+  letter-spacing: 2px;
 }
